@@ -51,6 +51,7 @@ wigena strengest,
 A batch-analysis example:
 
 ```python
+from PoeticAnalysisNew import *
 fileNames = []
 os.chdir('texts')
 directories = os.listdir()
@@ -62,8 +63,7 @@ with open('../report.txt', 'w', encoding='utf-8') as out:
     for item in fileNames:
         if item.endswith('txt'):
             with open(item, 'r', encoding='utf-8') as inp:
-                txt = inp.read()
-            poem = Poem(txt)
+                poem = Poem(inp.read())
             out.write(str(poem.getFormulaicDensity()) + '\n')
 ```
 
