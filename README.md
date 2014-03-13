@@ -3,7 +3,7 @@ poetic-formula-extractor-python
 
 A script for extracting formulas from poetic texts.
 
-The software backbone of this paper: https://www.academia.edu/6304149/_ (in Russian). Computes formulaic density of a poetic text, optionally prints the formulas from it to stdout or to a file and prints the original text with formulas bracketed.
+The software backbone of this paper: https://www.academia.edu/6304149/_ (in Russian). Computes formulaic density of a poetic text, optionally prints the formulas from it to stdout or to a file or prints the original text with formulas bracketed to an html-file.
 
 The scripts takes as its input a text of a poem, an alphabet, and a stop list (the latter two are iterables of any type and default to built-in Russian ones if not provided). UsefulData.py contains alphabets and stop lists for Russian, Homeric Greek, and Anglo-Saxon.
 
