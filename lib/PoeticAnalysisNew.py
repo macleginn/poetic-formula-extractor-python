@@ -100,7 +100,7 @@ class NGram:
 
 class Poem:
     """
-    The main class. Computes all the necessary statistics on itialisation.
+    The main class. Computes all the necessary statistics on initialisation.
     """
     def __init__(self, txt, userAlphabet = None, userStopList = None, verbose = False):
         # Checking if user provided an alphabet and a stop-list. Both could be any iterables.
