@@ -1,6 +1,8 @@
 poetic-formula-extractor-python
 ===============================
 
+UPD: A new and much better version of this program is available [nearby](http://github.com/macleginn/fast-formulaic-analysis).
+
 A script for extracting formulas from poetic texts.
 
 The software backbone of this paper: https://www.academia.edu/6304149/_ (in Russian). Computes formulaic density of a poetic text, optionally prints the formulas from it to stdout or to a file or prints the original text with formulas bracketed to an html-file.
