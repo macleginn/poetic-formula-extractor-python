@@ -1,7 +1,7 @@
 poetic-formula-extractor-python
 ===============================
 
-UPD: A new and much better version of this program is available [nearby](http://github.com/macleginn/fast-formulaic-analysis).
+**UPD: A new and much better version of this program is available [nearby](http://github.com/macleginn/fast-formulaic-analysis).**
 
 A script for extracting formulas from poetic texts.
 
